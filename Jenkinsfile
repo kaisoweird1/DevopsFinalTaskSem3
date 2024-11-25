@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Hoodini2117/devops-project'
+                git branch: 'main', url: 'https://github.com/kaisoweird1'
             }
         }
         
