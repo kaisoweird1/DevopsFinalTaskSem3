@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/kaisoweird1/DevopsFinalTaskSem3.git'
+                git branch: 'main', url: 'https://github.com/kaisoweird1/DevopsFinalTaskSem3'
             }
         }
         
